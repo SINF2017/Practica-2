@@ -59,4 +59,9 @@ WHERE cursa.ID = 12345 AND materia.id_materia = cursa.id_materia;
 Ejercicio 7.
 */
 \! echo "Ejercicio 7:";
-SELECT
+SELECT nombre
+FROM alumno_3ciclo
+UNION
+SELECT nombre
+FROM docente
+ORDER BY nombre;
