@@ -28,7 +28,7 @@ FROM docente,departamento
 WHERE departamento.nombre_dpto = docente.nombre_dpto;
 
 /**
-Ejercicio 4 varainte.
+Ejercicio 4 variante.
 */
 SELECT ID,nombre,docente.nombre_dpto,salario, edificio, presupuesto
 FROM docente
